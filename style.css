@@ -1,0 +1,155 @@
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+.nav_ul {
+    text-align: center;
+    }
+.nav_li {
+    display: inline-block;
+    margin-right: 48px;
+    }
+    .header {
+        margin: 53px 0;
+    }
+.nav_li:no(:last-of-type){
+    margin-right: 48px;
+}
+.nav_link {
+    font-weight: 700px;
+    line-height: 25px;
+    line-height: 100%;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.background {
+    text-align: center;
+    padding: 138px 0;
+    background-image: url(./img/pexels-harrison-candlin-2441454\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.background_title{
+   font-weight: 700px; 
+   font-size: 72px;
+   line-height:98.05px;
+   color: #ffff;
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.description {
+    background-color: #5C98AB;
+    padding: 130px 0;
+    text-align: center;
+    margin: 0 auto;
+    }
+.description_text {
+    max-width: 726px;
+    margin: 0 auto;
+    font-weight: 400px;
+    line-height: 49px;
+    color:  #FFFFFF;
+    font-size: 36px;
+    text-align: center;
+   
+}
+.description_button {
+width: 420px;
+height: 70px;
+border-radius: 5px;
+background-color: #ffff;
+border: none;
+font-weight: 700;
+font-size: 36px;
+line-height: 49.03px;
+}
+.square{
+    position: relative;
+    margin: 221px auto;
+}
+.square_text {
+    text-align: center;
+    max-width: 696px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 auto auto;
+    padding: 221px 380px 216px 364px;
+}
+
+.square_item {
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    background-color:  #BFDEFB;
+}
+.item1 {
+    background-color: #BFDEFB;
+    top: -121px;
+    left: -10px;
+}
+.item2 {
+   bottom: -60px;
+}
+.item3 {
+    right: 0;
+    top: 20px;
+   
+}
+.circle_text {
+    text-align: center;
+    max-width: 696px;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0 auto;
+    }
+    .container circle {
+width: 50%;
+height: 500px;
+border: 1px solid gray;
+    }
+.form-section {
+    margin: 63px auto 100px;
+    max-width: 647px;
+}
+.input_wrapper {
+    position: relative;
+    margin-bottom: 41px;
+}
+.input {
+    width: 647px;
+    padding: 33px 0 14px 31px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.label {
+    position: absolute;
+    left: 33px;
+    top: 14px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #000000;
+}
+.input::placeholder {
+    font-size: 26px; 
+    line-height: 39px;
+    font-weight: 300;
+    color: #000000;
+}
+.form_button {
+    width: 647px;
+    height: 92px;
+    background: #5C98AB;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+
+}
